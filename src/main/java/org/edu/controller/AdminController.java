@@ -372,7 +372,7 @@ public class AdminController {
 	}
 	
 	/**
-	 * 회원관리 > 삭제 입니다.
+	 * 회원관리 > 삭제 입니다.2020
 	 * @throws Exception 
 	 */
 	@RequestMapping(value = "/member/delete", method = RequestMethod.POST)
