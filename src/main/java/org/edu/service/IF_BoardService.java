@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.edu.vo.BoardTypeVO;
 import org.edu.vo.BoardVO;
+import org.edu.vo.MemberVO;
 import org.edu.vo.PageVO;
 
 public interface IF_BoardService {

@@ -41,11 +41,11 @@ if('${msg}' != ""){
 				<ul class="util clear">
 				<c:choose>
 					<c:when test="${session_enabled eq 'true' }">
-						<li><span style="color:white">${session_username}님[${session_userid}] 환영합니다.!</span>
+						<li><span style="color:white">${session_username}님[${session_userid}] 환영합니다!</span>
 						</li>
 						<li><a href="/logout">로그아웃</a>
 						</li>
-						<li><a href="/admin">마이페이지</a>
+						<li><a href="/mypage/update">마이페이지</a>
 						</li>
 						<c:if test="${session_levels eq 'ROLE_ADMIN'}">
 							<li><a href="/admin">관리자</a>
